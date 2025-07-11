@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <!-- Иконка телефона -->
+    <symbol id="icon-device" viewBox="0 0 12 18" fill="none">
+        <path fill="currentColor"
+            d="M9 0H3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm.5 13h-7v-11h7v11zM7 16H5v-.5h2v.5z" />
+    </symbol>
+
+    <!-- Иконка конверта -->
+    <symbol id="icon-envelope" viewBox="0 0 17 13" fill="none">
+        <path fill="currentColor"
+            d="M1.5 13a1.5 1.5 0 0 1-1.06-.44A1.5 1.5 0 0 1 0 11.5v-10A1.5 1.5 0 0 1 .44.44 1.5 1.5 0 0 1 1.5 0h14a1.5 1.5 0 0 1 1.06.44 1.5 1.5 0 0 1 .44 1.06v10a1.5 1.5 0 0 1-.44 1.06 1.5 1.5 0 0 1-1.06.44h-14zM8.5 7.5l-7-4v8h14v-8l-7 4zm0-1.5l7-4h-14l7 4z" />
+    </symbol>
+
+</svg>
