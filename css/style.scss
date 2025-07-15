@@ -203,7 +203,7 @@ legend {
 }
 
 .burger {
-  display: none; /* Скрыто на десктопе */
+  display: none; 
   position: relative;
   width: 30px;
   height: 20px;
@@ -1812,9 +1812,6 @@ legend {
       justify-content: center;
     }
 
-    &__moto {
-      max-width: 500px;
-    }
   }
 }
 
