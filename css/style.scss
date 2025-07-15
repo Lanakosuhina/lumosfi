@@ -203,7 +203,7 @@ legend {
 }
 
 .burger {
-  display: none; 
+  display: none; /* Скрыто на десктопе */
   position: relative;
   width: 30px;
   height: 20px;
@@ -946,7 +946,7 @@ legend {
 }
 
 .testimonial {
-  background: url(../images/testimonial.png);
+  background: url(/images/testimonial.png);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1331,9 +1331,9 @@ legend {
     color: var(--color-white-200);
     font-size: var(--font-main-text);
     font-weight: 400;
-    text-transform: lowercase;
     width: 65%;
     text-align: left;
+    margin-bottom: 24px;
   }
 
   &__main {
@@ -1723,9 +1723,6 @@ legend {
     }
   }
   .footer {
-    &__moto {
-      display: none;
-    }
     &__contact-card {
       gap: 16px;
     }
@@ -1811,7 +1808,12 @@ legend {
     }
 
     &__top {
+      flex-direction: column;
       justify-content: center;
+    }
+
+    &__moto {
+      max-width: 500px;
     }
   }
 }
